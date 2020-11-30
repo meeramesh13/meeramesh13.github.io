@@ -1,0 +1,393 @@
+body{
+    background-color:#06AED5;
+    width:100%;
+}
+
+.navbar{
+    width:100%;
+    height:96px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    color:white;
+    font-size:24px;
+}
+
+.title{
+    position:relative;
+    left:50%;
+    transform:translateX(-28%);
+}
+
+.home{
+    margin-right:32px;
+}
+
+.tips{
+    margin-right:32px;
+}
+
+.tricks{
+    margin-right:32px;
+}
+
+.tools{
+    margin-right:32px;
+}
+
+.inspiration{
+    margin-right:32px;
+}
+
+/*anim-index*/
+.anim{
+    position:absolute;
+    left:46.5%;
+    top:450px;
+}
+
+/* blurbs-index */
+.blurbs{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    position:relative;
+    top:500px;
+}
+
+.blurb1{
+    position:relative;
+    left:38%;
+}
+
+.blurb2{
+
+}
+
+.blurb3{
+    position:relative;
+    left:50%;  
+}
+
+/*tools*/
+
+.blurb-tools{
+    position:relative;
+    left:64%;
+    top:-510px;
+}
+
+.char-icon{
+    position:relative;
+    left:20%;
+    top:80px;
+}
+
+.char-img{
+    position:relative;
+    left:60%;
+    top:-90px;
+}
+
+.name-icon{
+    position:relative;
+    left:20%;
+    top:-30px;
+}
+
+.name-img{
+    position:relative;
+    left:60%;
+    top:-180px;
+}
+
+.map-icon{
+    position:relative;
+    left:20%;
+    top:-120px;
+}
+
+.map-img{
+    position:relative;
+    left:60%;
+    top:-270px;
+}
+
+/* quotes-inspo */
+
+@keyframes wiggle1{
+    from {transform:translateX(-50px);}
+    to {transform:translateX(50px);}  
+}
+
+@keyframes wiggle2{
+    from {transform:translateX(-30px);};
+    to {transform:translateX(30px);}
+}
+
+@keyframes wiggle3{
+    from {transform:translateX(-15px);};
+    to {transform:translateX(15px);}
+}
+
+.quote1{
+    position:relative;
+    left:5%;
+    top:30%;
+    animation: wiggle1 2s ease 1.5s infinite alternate;
+}
+.quote1:hover{
+    transform: scale(1.1);
+}
+
+.quote2{
+    position:absolute;
+    left:5%;
+    top:50%;  
+    animation: wiggle1 2s ease 1.1s infinite alternate;
+}
+.quote2:hover{
+    transform: scale(1.1);
+}
+
+.quote3{
+    position:absolute;
+    left:15%;
+    top:90%;
+    animation: wiggle1 2s ease 3.2s infinite alternate;
+}
+.quote3:hover{
+    transform: scale(1.1);
+}
+
+.quote4{
+    position:absolute;
+    left:30%;
+    top:10%; 
+    animation: wiggle1 2s ease 1.4s infinite alternate;
+}
+.quote4:hover{
+    transform: scale(1.1);
+}
+
+.quote6{
+    position:absolute;
+    left:30%;
+    top:50%;  
+    animation: wiggle1 2s ease 1.5s infinite alternate;
+}
+.quote6:hover{
+    transform: scale(1.1);
+}
+
+.quote7{
+    position:absolute;
+    left:40%;
+    top:90%;  
+    animation: wiggle1 2s ease 2.1s infinite alternate; 
+}
+.quote7:hover{
+    transform: scale(1.1);
+}
+
+.quote8{
+    position:absolute;
+    left:55%;
+    top:20%;
+    animation: wiggle1 2s ease 2.4s infinite alternate;
+}
+.quote8:hover{
+    transform: scale(1.1);
+}
+
+.quote9{
+    position:absolute;
+    left:55%;
+    top:60%;
+    animation: wiggle1 2s ease 1.8s infinite alternate;
+}
+.quote9:hover{
+    transform: scale(1.1);
+}
+.quote11{
+    position:absolute;
+    left:80%;
+    top:30%;
+    animation: wiggle1 2s ease 1.7s infinite alternate;
+}
+.quote11:hover{
+    transform: scale(1.1);
+}
+
+.quote12{
+    position:absolute;
+    left:80%;
+    top:70%;
+    animation: wiggle1 2s ease infinite alternate;
+}
+.quote12:hover{
+    transform: scale(1.1);
+}
+
+.dot1-big{
+    position:absolute;
+    left:0%;
+    top:15%;
+    animation: wiggle2 2s ease .8s infinite alternate;
+}
+.dot2-big{
+    position:absolute;
+    left:75%;
+    top:70%;
+    animation: wiggle2 2s ease .5s infinite alternate;
+}
+.dot3-big{
+    position:absolute;
+    left:75%;
+    top:15%;
+    animation: wiggle2 2s ease 1.2s infinite alternate;
+}
+.dot4-big{
+    position:absolute;
+    left:50%;
+    top:50%;
+    animation: wiggle2 .6s ease infinite alternate;
+}
+.dot5-big{
+    position:absolute;
+    left:50%;
+    top:10%;
+    animation: wiggle2 2s ease .3s infinite alternate;
+
+}
+.dot6-big{
+    position:absolute;
+    left:23%;
+    top:70%;
+    animation: wiggle2 2s ease .7s infinite alternate;
+}
+.dot7-big{
+    position:absolute;
+    left:90%;
+    top:10%;
+    animation: wiggle2 2s ease .3s infinite alternate;
+}
+.dot8-big{
+    position:absolute;
+    left:70%;
+    top:90%;
+    animation: wiggle2 2s ease .1s infinite alternate;
+}
+
+.dot1-small{
+    position:absolute;
+    left:25%;
+    top:40%;
+    animation: wiggle3 2.3s ease infinite alternate;
+}
+.dot2-small{
+    position:absolute;
+    left:65%;
+    top:5%;
+    animation: wiggle3 1.9s ease infinite alternate;   
+}
+.dot3-small{
+    position:absolute;
+    left:5%;
+    top:90%;
+    animation: wiggle3 1.4s ease infinite alternate;
+}
+.dot4-small{
+    position:absolute;
+    left:95%;
+    top:65%;
+    animation: wiggle3 1.2s ease infinite alternate;   
+}
+.dot5-small{
+    position:absolute;
+    left:20%;
+    top:0%;
+    animation: wiggle3 1.6s ease infinite alternate;  
+}
+.dot6-small{
+    position:absolute;
+    left:65%;
+    top:110%;
+    animation: wiggle3 2.2s ease infinite alternate;
+}
+.dot7-small{
+    position:absolute;
+    left:85%;
+    top:115%;
+    animation: wiggle3 1.9s ease infinite alternate;
+}
+.dot8-small{
+    position:absolute;
+    left:85%;
+    top:0%;
+    animation: wiggle3 .8s ease infinite alternate;
+}
+
+.tips-images{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.tricks-images{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around; 
+}
+
+.tip-img1:hover{
+    transform: scale(1.1);  
+}
+
+.tip-img2:hover{
+    transform: scale(1.1);  
+}
+
+.tip-img3:hover{
+    transform: scale(1.1);  
+}
+
+.tip-img4:hover{
+    transform: scale(1.1);  
+}
+
+.tip-img5:hover{
+    transform: scale(1.1);  
+}
+
+.trick-img1:hover{
+    transform: scale(1.1);  
+}
+
+.trick-img2:hover{
+    transform: scale(1.1);  
+}
+
+.trick-img3:hover{
+    transform: scale(1.1);  
+}
+
+.trick-img4:hover{
+    transform: scale(1.1);  
+}
+
+.trick-img5:hover{
+    transform: scale(1.1);  
+}
+
+.trick-img6:hover{
+    transform: scale(1.1);  
+}
+
+.blurb-tools{
+    opacity:0;
+}
+.blurb-tools:hover{
+    opacity:1;
+}
